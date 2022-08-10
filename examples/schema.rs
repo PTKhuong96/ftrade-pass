@@ -3,7 +3,7 @@ use std::fs::create_dir_all;
 
 use cosmwasm_schema::{export_schema, remove_schemas, schema_for};
 
-use ftrade_employee_ct::msg::{ ExecuteMsg, InstantiateMsg, QueryMsg};
+use ftrade_pass::msg::{ ExecuteMsg, InstantiateMsg, QueryMsg};
 
 fn main() {
     let mut out_dir = current_dir().unwrap();
